@@ -118,7 +118,7 @@ Welcome to the LinkedIn App Backend Development project! This repository contain
 
 ## ER Diagram
 
-![er diagram orginal](https://github.com/Sreepurvaja/LINKEDIN-/assets/99593891/56d0d661-a998-4650-8020-48807542fa19)
+![er diagram orginal](https://github.com/Sreepurvaja/Linkedin/assets/99593891/5731b470-7ac5-4a69-8224-3f4a9adac66b)
    
 
   

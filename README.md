@@ -76,11 +76,11 @@ Postman is utilized for testing and documenting the APIs developed in the Spring
 
 ## INSTALL SPRING INITIALIZR FILE       
 
-    To Download Spring Boot Spring Initializr File : [https://start.spring.io/]
+ To Download Spring Boot Spring Initializr File : [https://start.spring.io/]
 
 ## INSTALL POSTMAN
 
-    To Download Postman : [https://www.postman.com/downloads/]
+ To Download Postman : [https://www.postman.com/downloads/]
    
 
 ## KEY FEATURES

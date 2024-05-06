@@ -31,7 +31,7 @@ Postman is utilized for testing and documenting the APIs developed in the Spring
 
 ## INSTALLATION 
 
-## Install Java
+## INSTALL JAVA
 - __Download Java:__
   
   Visit the official [Oracle website](https://www.oracle.com/java/technologies/downloads/) or AdoptOpenJDK (an open-source distribution of the JDK).
@@ -53,7 +53,7 @@ Postman is utilized for testing and documenting the APIs developed in the Spring
     
             java -version
 
-## Install Mysql
+## INSTALL MYSQL
 - __Download MySQL Installer:__
 
   Visit the official [MySQL website](https://www.mysql.com/downloads/).
@@ -128,7 +128,7 @@ Postman is utilized for testing and documenting the APIs developed in the Spring
 - (iii) Saved Articles
 - (iv) Content Recommendations
 
-## ER Diagram
+## ER DIAGRAM
 
 ![er diagram orginal](https://github.com/Sreepurvaja/Linkedin/assets/99593891/5731b470-7ac5-4a69-8224-3f4a9adac66b)
    

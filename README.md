@@ -25,7 +25,9 @@ Welcome to the LinkedIn App Backend Development project! This repository contain
 
 Spring Boot is the core framework used for building the backend of this project. It provides a rapid development environment for creating stand-alone, production-grade Spring-based applications.
 
-To Download Spring Boot Spring Initializr File : [https://start.spring.io/]
+## POSTMAN
+Postman is utilized for testing and documenting the APIs developed in the Spring Boot application. It allows for easy creation and execution of HTTP requests, as well as the generation of API documentation.
+
 
 ## INSTALLATION 
 
@@ -72,6 +74,15 @@ To Download Spring Boot Spring Initializr File : [https://start.spring.io/]
 
    You will be prompted to enter the root password.Once connected, you should see the MySQL prompt, indicating a successful installation.
 
+## INSTALL SPRING INITIALIZR FILE       
+
+    To Download Spring Boot Spring Initializr File : [https://start.spring.io/]
+
+## INSTALL POSTMAN
+
+    To Download Postman : [https://www.postman.com/downloads/]
+   
+
 ## KEY FEATURES
 
 ### Public User
@@ -110,11 +121,6 @@ To Download Spring Boot Spring Initializr File : [https://start.spring.io/]
 - (i) Profile Views
 - (ii) Connection Requests
 - (iii) Job Updates
-
- ### Privacy and Settings
- - (i) Manage Account Preference
- - (ii) Profile Visibility
- - (iii) Two Factor Authentication
 
 ### Content Publishing
 - (i) Post Updates

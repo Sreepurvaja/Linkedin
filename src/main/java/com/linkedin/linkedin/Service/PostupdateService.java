@@ -13,15 +13,17 @@ public class PostupdateService {
     @Autowired
     private Postupdate_Repo postupdate_repo;
 
-    public Postupdate savePostupdate(Postupdate postupdate) {
-        return postupdate_repo.save(postupdate);
-    }
+//    public Postupdate savePostupdate(Postupdate postupdate) {
+//        return postupdate_repo.save(postupdate);
+//    }
 
     public Optional<Postupdate> getPostupdateById(Integer postId) {
         return postupdate_repo.findById(postId);
     }
 
-    // Add other service methods as needed
+    public void deletepostById(Integer postId) {
+        postupdate_repo.deleteById(postId);
+    }
 }
 
 

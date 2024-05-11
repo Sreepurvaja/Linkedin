@@ -12,14 +12,19 @@ public class PostupdateController {
     @Autowired
     private PostupdateService postupdateService;
 
-//    @PostMapping("/postupdate")
-//    public Postupdate createPostupdate(@RequestBody Postupdate postupdate) {
+//    @PostMapping("/addpost")
+//    public Postupdate savePostupdate (@RequestBody Postupdate postupdate) {
 //        return postupdateService.savePostupdate(postupdate);
 //    }
 
     @GetMapping("/postupdate/{postId}")
     public Optional<Postupdate> getPostupdateById(@PathVariable Integer postId) {
         return postupdateService.getPostupdateById(postId);
+    }
+    @DeleteMapping("/deletepost/{postId}")
+    public String deletepostById(@PathVariable Integer postId) {
+        postupdateService.deletepostById(postId);
+        return "Deleted successfully";
     }
 
 

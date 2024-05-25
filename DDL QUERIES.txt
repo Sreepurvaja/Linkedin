@@ -1,0 +1,112 @@
+TABLE: USERS
+CREATE TABLE users (
+  UserID INTEGER PRIMARY KEY,
+  firstName VARCHAR(255),
+  lastName VARCHAR(255),
+  email VARCHAR(255),
+  password VARCHAR(255),
+  profilePicturePath VARCHAR(255),
+  dateJoined DATETIME
+);
+
+TABLE: PROFESSIONAL_EXPERIENCE
+CREATE TABLE Professional_Experience (
+  ExperienceID INTEGER PRIMARY KEY,
+  UserID INTEGER,
+  Position VARCHAR(255),
+  Company VARCHAR(255),
+  StartDate DATETIME,
+  EndDate DATETIME,
+  FOREIGN KEY (UserID) REFERENCES users(UserID)
+);
+
+TABLE: SKILLS_ENDORSEMENT
+CREATE TABLE Skills_and_Endorsement (
+  userID INTEGER,
+  EndorsementDate DATETIME,
+  skillID INTEGER PRIMARY KEY,
+  skillName VARCHAR(255),
+  FOREIGN KEY (userID) REFERENCES users(UserID)
+);
+
+TABLE:POST_AND_FEED
+CREATE TABLE Post_and_Feed (
+  PostID INTEGER PRIMARY KEY,
+  UserID INTEGER,
+  Content TEXT,
+  PostDate DATETIME,
+  CommentID INTEGER,
+  CommentDate DATETIME,
+  LikeCount INTEGER,
+  FOREIGN KEY (UserID) REFERENCES users(UserID)
+);
+
+TABLE:JOB_POSTING_AND_APPLICATION
+CREATE TABLE Job_posting_and_Application (
+  JobID INTEGER PRIMARY KEY,
+  UserID INTEGER,
+  CompanyName VARCHAR(255),
+  Position VARCHAR(255),
+  Description TEXT,
+  PostingDate DATETIME,
+  ApplicationDate DATETIME,
+  ApplicationStatus VARCHAR(255),
+  FOREIGN KEY (UserID) REFERENCES users(UserID)
+);
+
+TABLE:EDUCATION
+CREATE TABLE Education (
+  EducationID INTEGER PRIMARY KEY,
+  UserID INTEGER,
+  School VARCHAR(255),
+  Degree VARCHAR(255),
+  FieldOfStudy VARCHAR(255),
+  GraduationDate DATETIME,
+  FOREIGN KEY (UserID) REFERENCES users(UserID)
+);
+
+TABLE:CONNECTIONS
+CREATE TABLE Connections (
+  ConnectionsID INTEGER PRIMARY KEY,
+  UserID INTEGER,
+  Name VARCHAR(255),
+  Current_Position VARCHAR(255),
+  Company VARCHAR(255),
+  Team INTEGER,
+  Connection_Status VARCHAR(255),
+  Location VARCHAR(255),
+  Mutual_Connection INTEGER,
+  FOREIGN KEY (UserID) REFERENCES users(UserID)
+);
+
+TABLE:NOTIFICATIONS
+CREATE TABLE Notifications (
+  NotificationID INTEGER PRIMARY KEY,
+  UserID INTEGER,
+  Notification_Type VARCHAR(255),
+  Notification_Content VARCHAR(255),
+  FOREIGN KEY (UserID) REFERENCES users(UserID)
+);
+
+TABLE:GROUPS
+CREATE TABLE Groups (
+  UserID INTEGER,
+  GroupID INTEGER PRIMARY KEY,
+  Group_Name VARCHAR(255),
+  Group_Members INTEGER,
+  FOREIGN KEY (UserID) REFERENCES users(UserID)
+);
+
+TABLE:MESSAGES:
+CREATE TABLE messages (
+  UserID INTEGER,
+  MessageID INTEGER PRIMARY KEY,
+  Content VARCHAR(255),
+  FOREIGN KEY (UserID) REFERENCES users(UserID)
+);
+
+
+
+
+
+

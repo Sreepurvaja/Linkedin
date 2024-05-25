@@ -85,11 +85,11 @@ Postman is utilized for testing and documenting the APIs developed in the Spring
 
 ## KEY FEATURES
 
-### Public User
+###  User
 
-- (i)   Search Profile
-- (ii)  view Profile
-- (iii) Create User Account
+- (i)  Create User Account
+- (ii) User login
+
 
 ### Profile Management
 
@@ -97,36 +97,42 @@ Postman is utilized for testing and documenting the APIs developed in the Spring
 - (ii) Work Experience
 - (iii) Education
 - (iv)  Skills
-- (v)  Contact Infomation
+- (v)  Search Profile
+- (vi) View Profile
 
 
 ### Connections
-- (i) Connect with Professional 
-- (ii) Connect with Colleagues
-- (iii) Connect with Industry Peers
+
+- (i) Connect with Professional,Colleagues,Industry Peers
+- (ii) View connection
+- (iii) Delete connection
 
 
 ### News Feed
-- (i)Content from Connection
-- (ii) Content from Companies
-- (iii) Content from Groups
-  
 
+- (i) Add posts
+- (ii) View posts
+- (iii) Delete posts
+
+  
 ### Job Search and Application
-- (i) Skill and Preferences
-- (ii) Apply for Positions
-- (iii) Receive Job Recommendations
+
+- (i) View jobs
+- (ii) update job
+- (iii) Delete job
+
 
 ### Notification
-- (i) Profile Views
-- (ii) Connection Requests
-- (iii) Job Updates
 
-### Content Publishing
-- (i) Post Updates
-- (ii) Engagement Matrics
-- (iii) Saved Articles
-- (iv) Content Recommendations
+- (i) View notification 
+- (ii) Delete notification
+
+
+### Community & Groups
+
+- (i) View groups
+- (ii) Delete groups
+
 
 ## ER DIAGRAM
 
